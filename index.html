@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+      <title>Metro Ave</title>
+
+<!-- jQuery is required for Bootstrap to work -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="JS/jquery.stellar.min.js"></script>
+<!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this site go here -->
+  <link href="css/nav_style.css" rel="stylesheet">  
+  <link href="css/styles.css" rel="stylesheet"> 
+  
+  </head>
+
+  <body data-spy="scroll" data-target="#mynavbar" data-stellar-background-ratio="2">
+
+    <div class="container">
+      <div class="row">
+        <nav class="col-sm-3" id="mynavbar">
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#book">Bookings</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#members">Members</a></li>
+          </ul>
+        </nav>
+      <div class="col-sm-9">
+        <div id="home">    
+        <h1 id="headline">Metropolitan Avenue</h1>
+        <br>
+      </div>
+      <div id="shows">    
+        <h1>Upcoming Shows</h1>
+        <br>
+        <br>
+        <h3>8/8: Blues Hall on Beale, 8-12<br>
+8/16: Neil's Music Room, 8p-11p, $5<br>
+8/29: The Tap Room, Beale St., 8-12<br>
+9/6: P&H cafe, 8pm $5<br>
+9/12: The Tap Room, Beale St., 8-12</h3>
+        <br>
+        <br>
+        
+      </div>
+      <div id="book"> 
+        <h1>How to book us</h1>
+        <p>Send us an email!  You can do it here or you can reach us by phone @ 901-281-1453</p>
+        <br>
+        <br>
+        
+        <form name="bookform" class="form-horizontal ">
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Your Name: </label>
+            <div class="col-sm-10">
+            <input placeholder="First and Last Name" type="text" class="form-control" required=”required” name="flname" id="name">
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="venue" class="col-sm-2 control-label">Venue Name: </label>
+            <div class="col-sm-10">
+            <input placeholder="Venue Name" type="text" class="form-control" required=”required” name="vname" id="venue">
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="teln" class="col-sm-2 control-label">Phone Number: </label>
+            <div class="col-sm-10">
+            <input placeholder="Phone Number" type=”tel” minlength="10" maxlength="12" class="form-control" name="teln" id="teln" > <!-- pattern="{3}[\-]\d{3}[\-]\d{4}" -->
+          </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email Address: </label>
+            <div class="col-sm-10">
+            <input placeholder="Email" type="email" class="form-control" required=”required” name="email" id="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Message: </label>
+            <div class="col-sm-10">
+            <textarea placeholder="Dates? Times? Cover? Anything else you'd like us to know."  style="width:80%; resize:none; color:black" rows="3" class="form-control message-box" required=”required” name="message" id="message"></textarea>
+          </div>
+
+          </div>
+          <button type="submit" class="btn btn-default">Send</button>
+        </form>
+        <br>
+      </div>        
+      <div id="videos">         
+        <h1>Videos</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>This is the end of the section</p>
+      </div>
+      <div id="members">         
+        <h1>Members</h1>
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a data-toggle="tab" href="#band">The Band</a></li>
+          <li><a data-toggle="tab" href="#chris">Chris</a></li>
+          <li><a data-toggle="tab" href="#chuck">Chuck</a></li>
+          <li><a data-toggle="tab" href="#mikael">Mikael </a></li>
+          <li><a data-toggle="tab" href="#jason">Jason</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="band" class="tab-pane fade in active">
+          <p>Meet the band!</p>
+          <br>
+          <p id="tab-p">Founded in Oct 2012, Metropolitan Avenue plays a swingin' jazzy style, that is straight out of Memphis.  Composed of: Mikael Santan on vocals, harmonica - ChuckSullivan on bass - Chris Chatfield on guitar and Jason M. Vawter on drums.
+          </p>
+          <br>
+          <br>
+          <br>
+        </div> <!-- /band tab -->
+        <div id="chris" class="tab-pane fade in">
+          <p>Meet Chris!</p>
+          <br>
+          <p id="tab-p">Chris was born in Kansas City and was introduced to blues music during piano lessons as a child.  He started playing guitar in earnest during college, rather than studying.  His main influences include Ronnie Earl, Peter Green, and BB King.</p>
+          <br>
+          <br>
+          <br>
+        </div> <!-- /chris tab -->
+        <div id="chuck" class="tab-pane fade in">
+          <p>Meet Chuck!</p>
+          <br>
+          <p id="tab-p">Chuck Sullivan has played bass for many years. He became hooked on music as a young boy listening to the likes of Santana and War on a reel to reel with his father.  His bass teacher started him off with playing the blues in the late 90's and began playing with Metopolitan Avenue a few years ago. He is heavily influenced by James Jamerson, Chuck Rainey, Victor Wooten and Jaco Pastorius.</p>
+          <br>
+          <br>
+        </div> <!-- /band tab -->
+        <div id="mikael" class="tab-pane fade in">
+          <p>Meet Mikael!</p>
+          <br>
+          <p id="tab-p">Mikael Santana, born and raised in Florida, discovered the Blues Harmonica when he first viewed the movie "Crossroads".  The humble instrument has taken him to countless gigs on historic Beale St, in Memphis,  the Frank Frost Stage at the King Biscuit Blues Festival, and, ultimately, to open for B.B. King in Indianola, MS.  Santana's musical influences include Little Walter Jacobs, William Clarke, and Big Joe Maher.</p>
+          <br>
+          <br>
+        </div> <!-- /band tab -->
+        <div id="jason" class="tab-pane fade in">
+          <p>Meet the Jason!</p>
+          <br>
+          <p id="tab-p">Jason Martin Vawter is a native Memphian has a deep seeded passion for the percussive arts. He has spent the last decade and a half honing his craft in as many bands as possible, learning to book events, arranging music, teaching drums, and has appeared on at least nine unique records. Jason grew up listening to the radio and his parents' 45's and 8 tracks absorbing as much classic rock, blues, and jazz as he could. His main influences are Ron Bushy, John Bonham, Mitch Mitchell, and Nick Mason.</p>
+          <br>
+        </div> <!-- /band tab -->
+      </div>  <!-- /tab content -->    
+      
+    </div> <!-- /members -->
+  </div>
+</div>
+ 
+<!--  script for stellar.js -->
+ <script type="text/javascript">
+ $.stellar({
+    horizontalScrolling: false,
+    responsive: true
+});</script>
+  
+  </body>
+  </html?

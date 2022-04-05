@@ -1,0 +1,94 @@
+body {
+  position: relative;
+  background:url('../img/street_photo5.jpeg') no-repeat top center; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+
+  
+}
+
+h1,h2,h3,h4,h5,a,p {font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; }
+
+#headline{
+  font-size: 6em;
+}
+
+.form-control {
+  width: 70%;
+}
+
+
+ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+
+ul.nav-tabs li a{
+  border: 0px;
+  border-bottom: 0px;
+}
+ul.nav-tabs li a{
+  color: white;
+}
+
+#shows {color: #fff; background-color: #b3cde0;}
+#book {color: #fff; background-color: #b3cde0;}
+#videos {color: #fff; background-color: #b3cde0;}
+#members {color: #fff; background-color: #1E88E5;}
+
+
+
+
+.row{
+
+ 
+  background: rgba(100,151,177,.5);
+  color: white;
+  text-align: center
+}
+
+
+#home  {
+
+  color: white;
+ ;
+}
+
+
+
+.vids {
+	margin-top: 2px;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.bealest{
+		position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+
+}
+
+.bealest object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }

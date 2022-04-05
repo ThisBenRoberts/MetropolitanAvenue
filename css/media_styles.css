@@ -1,0 +1,182 @@
+/*@media (max-width: 480px) {
+
+  	.jumbotron{ 
+  		background-image: url("");
+  		background-color: orange;
+		background-size: 100%;
+		margin: 0
+	}
+
+	.jumbotron h1 {
+		color:orange;
+	}
+
+	
+	.jumbotron p   { 
+		font-size: 90%;
+		color:orange
+	}
+
+	h2  { font-size: 90%;
+	color:orange}
+
+	p  { font-size: 90%;
+	color:orange}
+
+	a {color:orange}
+
+	.nav ul li a {
+		color:black;
+	}
+
+	.vols {
+		opacity: 1;
+		color: white;
+	}
+
+	.body {
+		background-color:orange;
+		color:orange
+	}
+	.html{
+		background-color:orange;
+		color:orange
+	}
+
+	.container {
+		background-color:orange;
+		color:orange
+	}
+
+	.panel-group {
+		background-color:orange;
+		color:orange;
+		border: orange;
+		padding: 0;
+		margin: 0;
+
+
+	}
+	.panel-heading {
+		background-color:orange;
+		color:orange;
+		border: orange;
+		padding: 0;
+		margin: 0;
+
+
+	}
+	.panel-title {
+		background-color:orange;
+		color:orange;
+		border: orange;
+		padding: 0;
+		margin: 0;
+
+
+	}
+	.panel-default {
+		background-color:orange;
+		color:orange;
+		border: orange;
+		padding: 0;
+		margin: 0;
+
+
+	}
+
+	.collapsed{
+		background-color:orange;
+		color:orange;
+		border: orange;
+	}
+
+	.btn {
+		background-color:orange;
+		color:orange;
+		border: orange;
+
+
+	}
+
+
+  }*/
+
+/*(min-width:480px) and*/
+
+/*@media  (max-width: 599px) {
+
+  	.jumbotron{ 
+  		background-image: url("");
+  		background-color: red;
+		background-size: 100%;
+	}
+
+	.jumbotron h1   { 
+		font-size: 95%;
+		color: black;
+	}
+
+	.jumbotron p   { 
+		font-size: 80%;
+
+	}
+
+
+	h1  { font-size: 80%}
+
+	h2  { font-size: 80%}
+
+	p  { font-size: 80%}
+	.vols {opacity: 0}
+
+	
+
+
+  }
+
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+  	.jumbotron{ 
+  		background-image: url("");
+  		background-color: yellow;
+		background-size: 100%;
+	}
+
+	.jumbotron h1 {
+		color:black;
+	}
+
+	
+	.jumbotron p   { 
+		font-size: 90%;
+		color:black
+}
+
+	h2  { font-size: 90%}
+
+	p  { font-size: 90%}
+
+	.nav ul li a {
+		color:black;
+	}
+	.vols {opacity: 0}
+
+
+  }
+
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  	.jumbotron{ 
+  		background-image: url("");
+  		background-color: green;
+		background-size: 100%;
+	}
+	.vols {opacity: 0}
+
+
+
+  }*/
